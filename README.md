@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+                                         ------- WasteWise -------
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+WasteWise is a Waste Collection Monitoring and Management System developed for Ormoc City. The platform streamlines waste collection operations through real-time truck tracking, route management, attendance monitoring, schedule management, complaint reporting, and operational analytics.
 
-## Get started
+The system consists of a web application for System Administrators, ENRO Staff, and Barangay Officials, and a mobile application for Garbage Collectors and Residents. WasteWise utilizes real-time communication technologies to provide live updates on collection activities, route progress, attendance status, and community reports.
 
-1. Install dependencies
+1. Key Features
 
-   ```bash
-   npm install
-   ```
+* Real-time truck tracking and route monitoring
+* Waste collection schedule management
+* Garbage collector attendance monitoring
+* Resident complaint and reporting system
+* Barangay, route, truck, and garbage site management
+* Role-based access control and user management
+* OTP-secured authentication
+* Real-time notifications and updates
 
-2. Start the app
+2. Technology Stack
 
-   ```bash
-   npx expo start
-   ```
+* Frontend: React.js / React Native
+* Backend: Node.js, Express.js
+* Database: MongoDB
+* Authentication: JWT + Email OTP Verification
+* Real-Time Communication: WebSocket
+* Deployment:
 
-In the output, you'll find options to open the app in a
+  * Web Application: Vercel
+  * Backend Server: Render
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+3. Purpose
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+WasteWise aims to improve the efficiency, transparency, and monitoring of waste collection services in Ormoc City by connecting local government units, waste collection personnel, barangay officials, and residents through a centralized digital platform.
 
-## Get a fresh project
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+@2025
